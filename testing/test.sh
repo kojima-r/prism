@@ -1,4 +1,7 @@
 #!/bin/sh
+set -o errexit
+set -o nounset
+
 
 echo "Test Start"
 echo "[TEST] programs/"
